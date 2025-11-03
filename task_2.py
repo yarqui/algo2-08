@@ -63,7 +63,7 @@ def test_rate_limiter():
             f"{'✓' if result else f'× (wait {wait_time:.1f}s)'}"
         )
 
-        # Small delay from 0.1 to 1.0 seconds between messages
+        # Small delay between messages
         time.sleep(random.uniform(0.1, 1.0))
 
     print("\\nWaiting for 4 seconds...")
